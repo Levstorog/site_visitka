@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+<header>
+    <a href="index.html" id="logo"> <span class="pink">Сайт</span> <i>визитк</i></a>
+    <ul id="mainnav">
+        <li><a href="uslugi.html" class="active">Услуги</a></li>
+        <li><a href="onas.html" class="active">О нас</a></li>
+        <li><a href="form.html" class="active">Клиенты</a></li>
+        <li><a href="kontakti.html" class="active">Контакты</a></li>
+    </ul>
+</header>
+<main>
+
+
+<form action="" id="contact-form">
+    <div class="form_item">
+        <label for="topic">Тема</label><br>
+        <select name="topic" id="topic">
+            <option value="1">Заказать услугу</option>
+            <option value="2">Оставить отзыв</option>
+            <option value="3">Предложить сотрудничество</option>
+            <option value="4">Другое</option>
+        </select>
+    </div>
+    <div class="form_item">
+    <label for="name">Имя</label><br>
+   <input name="name" id="name"  type="text" placeholder="ваше имя по паспорту" required>
+    </div>
+    
+<div class="form_item">
+    <label for="email">E-mail</label><br>
+   <input name="email" id="email" type="email" placeholder="ваша эл.почта" required>
+    </div>
+<div>
+<div>
+    <label for="date">дата рождения</label><br>
+    <input type="date" id="date" type="date" placeholder="ваша дата рождения" required>
+</div>
+<div>
+    <label for="tel">номер телефона</label><br>
+    <input type="tel" id="tel" type="tel" placeholder="ваш номер телефона" required>
+</div>
+    <label for="text">Тест сообщения</label><br>
+    <input name="text" id="text" type="text" class="bol" placeholder="ваш комментарий к заказу">
+</div>
+
+
+  
+<div class="form_item">
+   <input type="submit">
+    </div>
+ </form> 
+</main>
+    </div>
+
+
+    <footer>
+        
+       <p class="footer_block"><a href="form.html" class="effect">Написать нам &#9650;</a></p>
+       <p class="footer_block">&copy; Новая компания</p>
+       <div class="footer_icons">
+
+        <a href="https://mail.ru" target="_blank"><img src="img/mailru.png" alt="" class="footer_img"></a>
+
+        <a href="https://vk.com/feed" target="_blank"><img src="img/vk.png" alt="" class="footer_img"></a>
+
+        <a href="https://ok.ru" target="_blank"><img src="img/ok.png" alt="" class="footer_img"></a>
+        </div>
+    </footer>
+</body>
+</html>
